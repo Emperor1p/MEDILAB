@@ -1,0 +1,777 @@
+/* body{
+    overflow: auto;
+    
+    box-sizing: border-box;
+    
+    background-attachment: fixed;
+    height: 80vh;
+    margin-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+
+.bx-envelope {    
+    color: rgb(25, 119, 204);
+}
+.bx-mobile-alt {    
+    color: rgb(25, 119, 204);
+
+}
+
+.emai{
+    color: rgb(59,86,111);
+}
+
+ .emai:hover{
+    color: rgb(25, 119, 204);
+}
+
+/* @media only screen and (min-width: 720px) {
+    #appoint {
+        
+        margin-left: 160px;
+    }
+} */
+@media only screen and (max-width: 720px) {
+    #appoint {
+
+        margin-left: 120px;
+    }
+}
+
+.navbar-nav.navsec .nav-link:hover {
+    color: rgb(25, 119, 204) !important;
+    border-bottom: 2px solid rgb(25, 119, 204);
+
+
+}
+
+
+
+.navbar {
+    background-color: white;
+}
+
+#nat {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    transition: transform 0.5s ease;
+
+}
+
+.welcome {
+    margin-top: 110px;
+
+    overflow: auto;
+
+    background-image: url("medilab/img/hero-bg.jpg");
+
+    background-attachment: fixed;
+    height: 87vh;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+.welcome h1 {
+    font-size: 50px;
+    margin-top: 120px;
+
+}
+
+.welcome p {
+    font-size: 26px;
+}
+
+.welcome button {
+    font-size: 16px;
+
+}
+
+#cover {
+    margin-top: -110px;
+}
+
+#core p {
+    margin-bottom: 30px;
+}
+
+.main p {
+    font-size: 26px;
+}
+
+#maintext {
+    background-color: rgb(26, 119, 204);
+}
+
+#text {
+    background-color: rgb(71, 146, 214);
+}
+
+.clas-image {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.mat {
+    margin-top: -90px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    div.welcome {
+      font-size: 3px;
+    }
+  }
+
+   */
+
+@media (max-width: 967px) {
+    .welcome {
+        background-attachment: scroll;
+        background-position: center;
+    }
+
+    .welcome h1 {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    .welcome p {
+        font-size: 18px;
+    }
+
+    .welcome button {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+
+    #cover {
+        margin-top: 40px;
+        padding-left: 0px;
+    }
+
+    #maintext {
+        height: 790px;
+    }
+}
+
+#mantle {
+    position: relative;
+    background-image: url("medilab/img/about.jpg");
+    height: 97vh;
+    margin-left: -40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+
+
+#play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #1977cc;
+
+
+}
+
+.lorem {
+    color: rgb(48, 57, 66);
+}
+
+.lorem:hover {
+    color: #1977cc;
+}
+
+
+#hof:hover .bx-fingerprint {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+    transition: 0.7s;
+
+}
+
+#hof:hover .bx-gift {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+
+}
+
+#hof:hover .bx-atom {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+
+}
+
+
+.bx-fingerprint {
+    background-color: white;
+    color: rgb(25, 119, 204);
+    ;
+    outline: 1px solid rgb(25, 119, 204);
+    ;
+    padding: 10px;
+
+}
+
+.bx-gift {
+    background-color: white;
+    color: rgb(25, 119, 204);
+    ;
+    outline: 1px solid rgb(25, 119, 204);
+    padding: 10px;
+
+}
+
+.bx-atom {
+    background-color: white;
+    color: rgb(25, 119, 204);
+    ;
+    outline: 1px solid rgb(25, 119, 204);
+    ;
+    padding: 10px;
+
+}
+
+
+.bx-fingerprint {
+    background-color: white;
+    color: rgb(25, 119, 204);
+    ;
+    outline: 1px solid rgb(25, 119, 204);
+    ;
+    padding: 10px;
+
+}
+
+.bx-atom {
+    background-color: white;
+    color: rgb(25, 119, 204);
+    ;
+    outline: 1px solid rgb(25, 119, 204);
+    ;
+    padding: 10px;
+
+}
+
+
+#made {
+    /* height: 250px; */
+    padding-bottom: 20px;
+    background-color: rgb(241, 247, 253);
+
+}
+
+div .malt {
+    margin-top: -70px;
+    color: rgb(25, 119, 204);
+
+}
+
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.card-content {
+    position: relative;
+    height: 100%;
+
+}
+
+
+.card-content i {
+    position: absolute;
+    top: 51px;
+    /* Adjust this value to move the icon further above */
+    left: 47%;
+    transform: translateX(-20%);
+    border: 2px solid currentColor;
+
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+
+#services {
+    margin-top: 90px;
+}
+
+#appoint {
+    background-color: rgb(25, 119, 204);
+}
+
+
+
+.shad {
+    box-shadow: -6px -6px 1px rgb(209, 228, 245);
+    background-color: rgb(25, 119, 204);
+}
+
+
+
+.serv:hover .fa-pills {
+
+    background-color: white
+}
+
+.serv:hover .fa-pills .shad {
+
+    color: rgb(25, 119, 204);
+
+}
+
+.serv:hover .fa-hospital-user {
+
+    background-color: white
+}
+
+.serv:hover .fa-hospital-user .shad {
+
+    color: rgb(25, 119, 204);
+
+}
+
+
+
+
+.servicess{
+    padding: 10px 0px 10px 0px;
+}
+.doctorss{
+    padding: 70px 0px 10px 0px;
+}
+
+.serv:hover .fa-heart-broken {
+
+    background-color: white
+}
+
+.serv:hover .fa-heart-broken .shad {
+
+    color: rgb(25, 119, 204);
+}
+
+.card-body.serv:hover {
+    background-color: #1977cc;
+    transition: 0.7s;
+}
+
+
+.card-body.serv:hover p {
+    color: white;
+}
+
+.card-body.serv:hover h4 {
+    color: white;
+}
+
+.card-body.serv h4 {
+    color: rgb(44, 73, 100);
+    ;
+}
+
+
+.card-body.serv:hover i {
+    background-color: white;
+    color: #1977cc !important;
+
+}
+
+
+.maked {
+    background-color:
+        rgb(241, 247, 253);
+
+}
+
+
+.gene {
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.icone .fa-twitter {
+    background-color: rgb(160, 188, 213);
+    color: white;
+}
+
+.icone .fa-facebook {
+    background-color: rgb(160, 188, 213);
+    color: white;
+}
+
+.icone .fa-instagram {
+    background-color: rgb(160, 188, 213);
+    color: white;
+}
+
+.icone .fa-linkedin {
+    background-color: rgb(160, 188, 213);
+    color: white;
+
+}
+
+.icone {
+
+    margin-bottom: 15px;
+}
+
+.big {
+    background-color: rgb(238, 246, 253);
+}
+
+.map .rotate-img {
+    transition: transform 0.3s ease;
+}
+
+.map:hover .rotate-img {
+    transform: scale(1.1);
+    
+    overflow: hidden;
+
+}
+
+.map:hover .gene+.rotate-img {
+    transform: scale(1.1);
+    /* Zoom in the image when .gene is hovered */
+}
+
+@media only screen and (max-width: 720px) {
+    .department .nav-item .nav-link {
+        background-color: white;
+        border-radius: 0;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .department .nav-item .nav-link.active {
+        background-color: #1977cc;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+
+    .department .nav-item .nav-link {
+        background-color: transparent;
+        border-right: 2px solid lightgrey;
+        border-radius: 0;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .department .nav-item .nav-link.active {
+        background-color: transparent;
+        border-right: 2px solid #1977cc;
+        color: #1977cc;
+        font-weight: 600;
+    }
+}
+
+
+#doctors {
+    margin-top: 90px;
+}
+
+.man {
+    margin-bottom: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+    #faq {
+        height: 760px;
+    }
+
+}
+
+
+@media only screen and (min-width: 720px) {
+    #faq {
+        height: 630px;
+    }
+
+}
+
+#accordionExample h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+#accordionExample:hover #accordionExample2 {
+    color: rgb(25, 119, 204);
+}
+
+
+
+
+.fa-question-circle {
+    color: #1977cc;
+    border-radius: 3px;
+}
+
+
+
+.gallery:hover img {
+    transform: scale(1.1);
+
+}
+
+
+
+.map {
+    margin-top: 120px;
+}
+
+.enve {
+     background-color: rgb(214, 233, 250); 
+    color: rgb(25, 119, 204);
+    padding: 10px;
+
+}
+
+.bx-mobile {
+    background-color: rgb(214, 233, 250);
+    color: rgb(25, 119, 204);
+    padding: 10px;
+
+}
+
+.bx-map {
+    background-color: rgb(214, 233, 250);
+    color: rgb(25, 119, 204);
+    /* outline: px solid rgb(25,119,204);; */
+    padding: 10px;
+
+}
+
+#cont:hover .bx-map {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+
+}
+
+#cont:hover .bx-mobile {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+
+}
+
+#cont:hover .bx-envelope {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+
+}
+
+.mail {
+    margin-top: 55px;
+    font-family: Open Sans, sans-serif
+}
+
+
+.medila p {
+    color: rgb(99, 92, 85);
+    /* color: rgb(157, 162, 179); */
+}
+
+.medila .pet {
+    /* color: rgb(201, 171, 139); */
+    /* color: rgb(68, 68, 68) */
+    color: black;
+}
+
+.che .fa-chevron-right {
+    color: rgb(25, 119, 204);
+}
+
+
+#appoint:hover {
+    background-color: rgb(50, 131, 202);
+    transition: 0.7s;
+}
+
+t #apoit:hover {
+    background-color: rgb(50, 131, 202);
+}
+
+
+
+.mok .fa-twitter:hover {
+    background-color: rgb(50, 131, 202);
+    color: white;
+    /* outline: px solid rgb(25,119,204);; */
+
+
+}
+
+.mok .fa-twitter {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.mok .fa-linkedin:hover {
+    background-color: rgb(50, 131, 202);
+    color: white;
+    /* outline: px solid rgb(25,119,204);; */
+
+
+}
+
+.mok .fa-snapchat {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.mok .fa-snapchat:hover {
+    background-color: rgb(50, 131, 202);
+    color: white;
+    /* outline: px solid rgb(25,119,204);; */
+
+
+}
+
+
+
+.mok .fa-linkedin {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.mok .fa-instagram:hover {
+    background-color: rgb(50, 131, 202);
+    color: white;
+    /* outline: px solid rgb(25,119,204);; */
+
+
+}
+
+.mok .fa-instagram {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.mok .fa-facebook:hover {
+    background-color: rgb(50, 131, 202);
+    color: white;
+    /* outline: px solid rgb(25,119,204);; */
+
+
+}
+
+.mok .fa-facebook {
+    background-color: rgb(25, 119, 204);
+    color: white;
+    border: 1px rgb(25, 119, 204);
+    padding: 9px;
+    border-radius: 20px;
+}
+
+
+.img-fluid.map img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+
+.hr {
+    width: 115px;
+    height: 1px;
+    margin: auto;
+    background-color: #c4d0df;
+    content: "";
+    position: relative;
+    margin-top: 15px;
+    margin-left: 45%;
+}
+
+
+.hr::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    margin-left: 38px;
+
+    margin-top: -1px;
+    height: 2px;
+    background-color: #1977cc;
+}
+
+.footer {
+    background-color: rgb(216, 229, 243);
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+    .mok {
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+    .lastly input {
+        width: 600px;
+    }
+
+    .mok {
+        padding-bottom: 20px;
+    }
+
+}
+
+.col-auto {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.col-auto img {
+    width: 180px;
+}
